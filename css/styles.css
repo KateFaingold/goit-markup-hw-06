@@ -718,6 +718,7 @@ button{
 
 @media screen and (min-width: 768px) {
     .wrap-footer {
+            width: 552px;
             display: flex;
             flex-wrap: wrap;
             text-align: start;
