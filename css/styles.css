@@ -200,12 +200,17 @@ button{
     text-align: center;
     
     padding: 72px 36px ;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office-mob-min.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border: 1px solid #e7e9fc;
     margin: 0 auto;
+}
+@media screen and (min-resolution: 2x) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office-mob@2x-min.jpg);
+    }
 }
 
 .hero-title {
@@ -247,14 +252,21 @@ button{
     .hero {
         max-width: 768px;
         padding: 112px 110px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office-tab-min.jpg);
     }
+
+        @media screen and (min-resolution: 2x) {
+            .hero {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office-tab@2x-min.jpg);
+            }
+        }
+
     .hero-title {
         font-size: 56px;
         line-height: 1.07;
         max-width: 496px;
         margin-bottom: 36px;
-        /* text-align: center;
-        justify-content: center; */
+       
     }
     .hero-button {
         font-size: 18px;
@@ -268,10 +280,16 @@ button{
         align-items: center;
         justify-content: center;
         padding: 188px 0;
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office-desk-min.jpg);
         max-width: 1440px;
-       
     }
+
+@media screen and (min-resolution: 2x) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office-desk@2x-min.jpg);
+    }
+}
+
     .hero-title {
         font-size: 56px;
         line-height: 1.07;
@@ -280,6 +298,8 @@ button{
         margin-bottom: 48px;
     }
 }
+
+
 
 /* Section 1 */
 .feature {
